@@ -6,7 +6,7 @@ void setup() {
 }
 
 void loop() {
-  int chk = DHT.read11(DHT11_PIN);
+  int chk= DHT.read11(DHT11_PIN);
   Serial.print("Temperature = ");
   Serial.print(DHT.temperature);
   Serial.print("\nHumidity = ");
